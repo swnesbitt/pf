@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor / local tooling
+.vscode/
+.idea/
+.claude/
+.tmp/
+*.swp
+
+# HPC run artifacts (SLURM job logs / submission scratch — not source)
+slurm_runs/
+*.out
+*.err
+
+# Data products (large; live on scratch / MinIO / HF / Zenodo, not in git)
+*.nc
+*.parquet
+*.zarr/
+pf_db/
+consolidated/
+*.duckdb
+*.icechunk
+
+# OS
+.DS_Store

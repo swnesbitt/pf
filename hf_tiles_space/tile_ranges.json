@@ -1,0 +1,650 @@
+{
+  "COMBINED_conv_freq": {
+    "vmin": 0.0,
+    "vmax": 0.053467,
+    "dlo": 0.0,
+    "dhi": 0.071716,
+    "units": "1",
+    "long_name": "convective rain frequency (conv raining/views)"
+  },
+  "COMBINED_conv_intensity": {
+    "vmin": 0.264282,
+    "vmax": 28.96875,
+    "dlo": 0.0,
+    "dhi": 63.362543,
+    "units": "mm/hr",
+    "long_name": "convective conditional mean rate (mm/hr)"
+  },
+  "COMBINED_conv_pixel_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective fraction of precipitating pixels (conv raining / all raining)"
+  },
+  "COMBINED_conv_rain": {
+    "vmin": 0.0,
+    "vmax": 2853.0,
+    "dlo": 0.0,
+    "dhi": 4289.0,
+    "units": "mm/year",
+    "long_name": "convective annual rainfall accumulation (mm/yr)"
+  },
+  "COMBINED_conv_rain_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective rainfall fraction (conv accumulation / total accumulation)"
+  },
+  "COMBINED_dm_conv": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "convective near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "COMBINED_dm_strat": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "stratiform near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "COMBINED_echotop20": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 20 dBZ echo-top height (mean, m)"
+  },
+  "COMBINED_echotop30": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 30 dBZ echo-top height (mean, m)"
+  },
+  "COMBINED_echotop40": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 40 dBZ echo-top height (mean, m)"
+  },
+  "COMBINED_eps_conv": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "convective near-surface DSD epsilon (mean)"
+  },
+  "COMBINED_eps_strat": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "stratiform near-surface DSD epsilon (mean)"
+  },
+  "COMBINED_freq": {
+    "vmin": 0.0,
+    "vmax": 0.162476,
+    "dlo": 0.0,
+    "dhi": 0.22098,
+    "units": "1",
+    "long_name": "rain frequency (raining/views)"
+  },
+  "COMBINED_freq_gt100": {
+    "vmin": 0.0,
+    "vmax": 0.00084,
+    "dlo": 0.0,
+    "dhi": 0.001256,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 100 mm/hr (occurrence/views)"
+  },
+  "COMBINED_freq_gt25": {
+    "vmin": 0.0,
+    "vmax": 0.003899,
+    "dlo": 0.0,
+    "dhi": 0.005791,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 25 mm/hr (occurrence/views)"
+  },
+  "COMBINED_freq_gt50": {
+    "vmin": 0.0,
+    "vmax": 0.00177,
+    "dlo": 0.0,
+    "dhi": 0.002767,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 50 mm/hr (occurrence/views)"
+  },
+  "COMBINED_freq_gt75": {
+    "vmin": 0.0,
+    "vmax": 0.001015,
+    "dlo": 0.0,
+    "dhi": 0.001723,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 75 mm/hr (occurrence/views)"
+  },
+  "COMBINED_intensity": {
+    "vmin": 0.335388,
+    "vmax": 8.302734,
+    "dlo": 0.0,
+    "dhi": 14.925904,
+    "units": "mm/hr",
+    "long_name": "conditional mean rain rate (mm/hr)"
+  },
+  "COMBINED_nw_conv": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "convective near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "COMBINED_nw_strat": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "stratiform near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "COMBINED_rain": {
+    "vmin": 0.0,
+    "vmax": 4430.0,
+    "dlo": 0.0,
+    "dhi": 6435.0,
+    "units": "mm/year",
+    "long_name": "annual rainfall accumulation (unconditional rate x 8766 h/yr)"
+  },
+  "COMBINED_raining_views": {
+    "vmin": 0.0,
+    "vmax": 931.0,
+    "dlo": 0.0,
+    "dhi": 1273.0,
+    "units": "count",
+    "long_name": "annual count of raining pixel-views"
+  },
+  "COMBINED_rate": {
+    "vmin": 0.0,
+    "vmax": 0.505371,
+    "dlo": 0.0,
+    "dhi": 0.734017,
+    "units": "mm/hr",
+    "long_name": "unconditional mean rain rate (mm/hr)"
+  },
+  "COMBINED_strat_freq": {
+    "vmin": 0.0,
+    "vmax": 0.139404,
+    "dlo": 0.0,
+    "dhi": 0.194214,
+    "units": "1",
+    "long_name": "stratiform rain frequency (strat raining/views)"
+  },
+  "COMBINED_strat_intensity": {
+    "vmin": 0.273804,
+    "vmax": 7.044233,
+    "dlo": 0.0,
+    "dhi": 15.079745,
+    "units": "mm/hr",
+    "long_name": "stratiform conditional mean rate (mm/hr)"
+  },
+  "COMBINED_strat_rain": {
+    "vmin": 0.0,
+    "vmax": 2140.0,
+    "dlo": 0.0,
+    "dhi": 3055.5,
+    "units": "mm/year",
+    "long_name": "stratiform annual rainfall accumulation (mm/yr)"
+  },
+  "COMBINED_views": {
+    "vmin": 0.0,
+    "vmax": 14848.0,
+    "dlo": 0.0,
+    "dhi": 15590.4,
+    "units": "count",
+    "long_name": "annual count of radar pixel-views (sampling denominator)"
+  },
+  "GPM_conv_freq": {
+    "vmin": 0.0,
+    "vmax": 0.068741,
+    "dlo": 0.0,
+    "dhi": 0.087814,
+    "units": "1",
+    "long_name": "convective rain frequency (conv raining/views)"
+  },
+  "GPM_conv_intensity": {
+    "vmin": 0.233521,
+    "vmax": 35.375,
+    "dlo": 0.0,
+    "dhi": 80.0,
+    "units": "mm/hr",
+    "long_name": "convective conditional mean rate (mm/hr)"
+  },
+  "GPM_conv_pixel_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective fraction of precipitating pixels (conv raining / all raining)"
+  },
+  "GPM_conv_rain": {
+    "vmin": 0.0,
+    "vmax": 3988.5,
+    "dlo": 0.0,
+    "dhi": 5726.0634,
+    "units": "mm/year",
+    "long_name": "convective annual rainfall accumulation (mm/yr)"
+  },
+  "GPM_conv_rain_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective rainfall fraction (conv accumulation / total accumulation)"
+  },
+  "GPM_dm_conv": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "convective near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "GPM_dm_strat": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "stratiform near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "GPM_echotop20": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 20 dBZ echo-top height (mean, m)"
+  },
+  "GPM_echotop30": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 30 dBZ echo-top height (mean, m)"
+  },
+  "GPM_echotop40": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 40 dBZ echo-top height (mean, m)"
+  },
+  "GPM_eps_conv": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "convective near-surface DSD epsilon (mean)"
+  },
+  "GPM_eps_strat": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "stratiform near-surface DSD epsilon (mean)"
+  },
+  "GPM_freq": {
+    "vmin": 0.0,
+    "vmax": 0.177826,
+    "dlo": 0.0,
+    "dhi": 0.234438,
+    "units": "1",
+    "long_name": "rain frequency (raining/views)"
+  },
+  "GPM_freq_gt100": {
+    "vmin": 0.0,
+    "vmax": 0.001799,
+    "dlo": 0.0,
+    "dhi": 0.002638,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 100 mm/hr (occurrence/views)"
+  },
+  "GPM_freq_gt25": {
+    "vmin": 0.0,
+    "vmax": 0.00548,
+    "dlo": 0.0,
+    "dhi": 0.007613,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 25 mm/hr (occurrence/views)"
+  },
+  "GPM_freq_gt50": {
+    "vmin": 0.0,
+    "vmax": 0.002788,
+    "dlo": 0.0,
+    "dhi": 0.004517,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 50 mm/hr (occurrence/views)"
+  },
+  "GPM_freq_gt75": {
+    "vmin": 0.0,
+    "vmax": 0.001853,
+    "dlo": 0.0,
+    "dhi": 0.002791,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 75 mm/hr (occurrence/views)"
+  },
+  "GPM_intensity": {
+    "vmin": 0.218225,
+    "vmax": 10.966797,
+    "dlo": 0.0,
+    "dhi": 23.898438,
+    "units": "mm/hr",
+    "long_name": "conditional mean rain rate (mm/hr)"
+  },
+  "GPM_nw_conv": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "convective near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "GPM_nw_strat": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "stratiform near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "GPM_rain": {
+    "vmin": 0.0,
+    "vmax": 5636.0,
+    "dlo": 0.0,
+    "dhi": 7769.0,
+    "units": "mm/year",
+    "long_name": "annual rainfall accumulation (unconditional rate x 8766 h/yr)"
+  },
+  "GPM_raining_views": {
+    "vmin": 0.0,
+    "vmax": 371.0,
+    "dlo": 0.0,
+    "dhi": 501.0,
+    "units": "count",
+    "long_name": "annual count of raining pixel-views"
+  },
+  "GPM_rate": {
+    "vmin": 0.0,
+    "vmax": 0.642944,
+    "dlo": 0.0,
+    "dhi": 0.88623,
+    "units": "mm/hr",
+    "long_name": "unconditional mean rain rate (mm/hr)"
+  },
+  "GPM_strat_freq": {
+    "vmin": 0.0,
+    "vmax": 0.144653,
+    "dlo": 0.0,
+    "dhi": 0.197052,
+    "units": "1",
+    "long_name": "stratiform rain frequency (strat raining/views)"
+  },
+  "GPM_strat_intensity": {
+    "vmin": 0.190277,
+    "vmax": 10.888672,
+    "dlo": 0.0,
+    "dhi": 26.106781,
+    "units": "mm/hr",
+    "long_name": "stratiform conditional mean rate (mm/hr)"
+  },
+  "GPM_strat_rain": {
+    "vmin": 0.0,
+    "vmax": 3035.0,
+    "dlo": 0.0,
+    "dhi": 4178.0,
+    "units": "mm/year",
+    "long_name": "stratiform annual rainfall accumulation (mm/yr)"
+  },
+  "GPM_views": {
+    "vmin": 0.0,
+    "vmax": 4788.0,
+    "dlo": 0.0,
+    "dhi": 5027.4,
+    "units": "count",
+    "long_name": "annual count of radar pixel-views (sampling denominator)"
+  },
+  "TRMM_conv_freq": {
+    "vmin": 0.0,
+    "vmax": 0.052765,
+    "dlo": 0.0,
+    "dhi": 0.071949,
+    "units": "1",
+    "long_name": "convective rain frequency (conv raining/views)"
+  },
+  "TRMM_conv_intensity": {
+    "vmin": 0.406189,
+    "vmax": 33.25,
+    "dlo": 0.0,
+    "dhi": 68.769384,
+    "units": "mm/hr",
+    "long_name": "convective conditional mean rate (mm/hr)"
+  },
+  "TRMM_conv_pixel_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective fraction of precipitating pixels (conv raining / all raining)"
+  },
+  "TRMM_conv_rain": {
+    "vmin": 0.0,
+    "vmax": 3409.5,
+    "dlo": 0.0,
+    "dhi": 5195.5602,
+    "units": "mm/year",
+    "long_name": "convective annual rainfall accumulation (mm/yr)"
+  },
+  "TRMM_conv_rain_frac": {
+    "vmin": 0.0,
+    "vmax": 1.0,
+    "dlo": 0.0,
+    "dhi": 1.05,
+    "units": "1",
+    "long_name": "convective rainfall fraction (conv accumulation / total accumulation)"
+  },
+  "TRMM_dm_conv": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "convective near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "TRMM_dm_strat": {
+    "vmin": 0.983765,
+    "vmax": 1.817871,
+    "dlo": 0.0,
+    "dhi": 1.908765,
+    "units": "mm",
+    "long_name": "stratiform near-surface mass-weighted mean diameter Dm (mean, mm)"
+  },
+  "TRMM_echotop20": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 20 dBZ echo-top height (mean, m)"
+  },
+  "TRMM_echotop30": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 30 dBZ echo-top height (mean, m)"
+  },
+  "TRMM_echotop40": {
+    "vmin": 1897.75,
+    "vmax": 8011.0,
+    "dlo": 0.0,
+    "dhi": 8411.55,
+    "units": "m",
+    "long_name": "convective 40 dBZ echo-top height (mean, m)"
+  },
+  "TRMM_eps_conv": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "convective near-surface DSD epsilon (mean)"
+  },
+  "TRMM_eps_strat": {
+    "vmin": 0.80603,
+    "vmax": 1.220459,
+    "dlo": 0.0,
+    "dhi": 1.281482,
+    "units": "1",
+    "long_name": "stratiform near-surface DSD epsilon (mean)"
+  },
+  "TRMM_freq": {
+    "vmin": 0.0,
+    "vmax": 0.130066,
+    "dlo": 0.0,
+    "dhi": 0.176971,
+    "units": "1",
+    "long_name": "rain frequency (raining/views)"
+  },
+  "TRMM_freq_gt100": {
+    "vmin": 0.0,
+    "vmax": 0.001027,
+    "dlo": 0.0,
+    "dhi": 0.001496,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 100 mm/hr (occurrence/views)"
+  },
+  "TRMM_freq_gt25": {
+    "vmin": 0.0,
+    "vmax": 0.004825,
+    "dlo": 0.0,
+    "dhi": 0.007312,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 25 mm/hr (occurrence/views)"
+  },
+  "TRMM_freq_gt50": {
+    "vmin": 0.0,
+    "vmax": 0.002332,
+    "dlo": 0.0,
+    "dhi": 0.003505,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 50 mm/hr (occurrence/views)"
+  },
+  "TRMM_freq_gt75": {
+    "vmin": 0.0,
+    "vmax": 0.001388,
+    "dlo": 0.0,
+    "dhi": 0.002108,
+    "units": "1",
+    "long_name": "frequency of near-surface rain >= 75 mm/hr (occurrence/views)"
+  },
+  "TRMM_intensity": {
+    "vmin": 0.412048,
+    "vmax": 12.230469,
+    "dlo": 0.0,
+    "dhi": 24.674694,
+    "units": "mm/hr",
+    "long_name": "conditional mean rain rate (mm/hr)"
+  },
+  "TRMM_nw_conv": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "convective near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "TRMM_nw_strat": {
+    "vmin": 2.5,
+    "vmax": 4.5,
+    "dlo": 2.0,
+    "dhi": 5.0,
+    "units": "log10(mm-1 m-3)",
+    "long_name": "stratiform near-surface log10(Nw) (mean; Nw in mm^-1 m^-3)"
+  },
+  "TRMM_rain": {
+    "vmin": 0.0,
+    "vmax": 5039.0,
+    "dlo": 0.0,
+    "dhi": 7463.2801,
+    "units": "mm/year",
+    "long_name": "annual rainfall accumulation (unconditional rate x 8766 h/yr)"
+  },
+  "TRMM_raining_views": {
+    "vmin": 0.0,
+    "vmax": 932.0,
+    "dlo": 0.0,
+    "dhi": 1164.0,
+    "units": "count",
+    "long_name": "annual count of raining pixel-views"
+  },
+  "TRMM_rate": {
+    "vmin": 0.0,
+    "vmax": 0.574829,
+    "dlo": 0.0,
+    "dhi": 0.85144,
+    "units": "mm/hr",
+    "long_name": "unconditional mean rain rate (mm/hr)"
+  },
+  "TRMM_strat_freq": {
+    "vmin": 0.0,
+    "vmax": 0.09259,
+    "dlo": 0.0,
+    "dhi": 0.12993,
+    "units": "1",
+    "long_name": "stratiform rain frequency (strat raining/views)"
+  },
+  "TRMM_strat_intensity": {
+    "vmin": 0.369263,
+    "vmax": 9.560547,
+    "dlo": 0.0,
+    "dhi": 20.414966,
+    "units": "mm/hr",
+    "long_name": "stratiform conditional mean rate (mm/hr)"
+  },
+  "TRMM_strat_rain": {
+    "vmin": 0.0,
+    "vmax": 2141.0,
+    "dlo": 0.0,
+    "dhi": 3065.7801,
+    "units": "mm/year",
+    "long_name": "stratiform annual rainfall accumulation (mm/yr)"
+  },
+  "TRMM_views": {
+    "vmin": 0.0,
+    "vmax": 13684.0,
+    "dlo": 0.0,
+    "dhi": 14368.2,
+    "units": "count",
+    "long_name": "annual count of radar pixel-views (sampling denominator)"
+  }
+}

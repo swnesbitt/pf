@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pf"
+version = "0.1.0"
+description = "TRMM/GPM precipitation-feature (PF) database — Parquet-backed, in the spirit of Nesbitt et al. (2000, 2006)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Steve Nesbitt" }]
+dependencies = [
+    "earthaccess>=0.16",
+    "h5py",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scikit-image",
+    "pyresample",
+    "scipy",
+    "typer",
+    "rich",
+]
+
+[project.optional-dependencies]
+query = ["duckdb", "polars"]
+dev = ["pytest"]
+era5 = ["xarray", "zarr", "gcsfs", "dask"]
+grid = ["duckdb", "xarray", "h5netcdf", "dask"]
+
+[project.scripts]
+pf = "pf.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

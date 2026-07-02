@@ -1,0 +1,10 @@
+xpublish==0.5.2
+xpublish-tiles==0.7.0
+uvicorn[standard]
+fastapi
+xarray==2026.4.0
+zarr==3.2.1
+numpy
+matplotlib
+cmweather
+huggingface_hub

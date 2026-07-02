@@ -1,0 +1,27 @@
+name: pf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - earthaccess>=0.16
+  - h5py
+  - numpy
+  - pandas
+  - pyarrow
+  - scikit-image
+  - pyresample
+  - scipy
+  - typer
+  - rich
+  - pip
+  # optional query/analysis layer
+  - duckdb
+  - polars
+  - pytest
+  # optional ERA-5 environment co-location (Phase 5)
+  - xarray
+  - zarr
+  - gcsfs
+  - dask
+  - pip:
+      - -e .
