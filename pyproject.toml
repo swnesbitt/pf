@@ -8,6 +8,8 @@ version = "0.1.0"
 description = "TRMM/GPM precipitation-feature (PF) database — Parquet-backed, in the spirit of Nesbitt et al. (2000, 2006)"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "Steve Nesbitt" }]
 dependencies = [
     "earthaccess>=0.16",
