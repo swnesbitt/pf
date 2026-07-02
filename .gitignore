@@ -31,5 +31,9 @@ consolidated/
 *.duckdb
 *.icechunk
 
+# Markdown: track only README.md files; internal planning/spec docs stay local
+*.md
+!README.md
+
 # OS
 .DS_Store
